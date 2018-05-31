@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xdf</groupId>
+  <artifactId>Struts2</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>01BaseAction</module>
+      <module>02Struts2Base</module>
+      <module>03Struts2Parameter</module>
+      <module>04Struts2Dynamic</module>
+      <module>05Struts2ServletAPI</module>
+      <module>06Struts2GlobalException</module>
+      <module>07Struts2Validate</module>
+      <module>08Struts2Interceptor</module>
+      <module>09Struts2Upload</module>
+  </modules>
+  <name>Struts2 Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>Struts2</finalName>
+  </build>
+</project>
